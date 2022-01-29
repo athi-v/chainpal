@@ -1,0 +1,55 @@
+header {
+    background: #fff;
+    font-family: 'Poppins';
+
+}
+header .sticky-top
+{
+  position: sticky;
+  top: 0;
+  height:100%;
+}
+
+header .container-fluid {
+    padding: 1% 6%;
+}
+
+header .navbar-brand {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+header span {
+    color: #8c00ff
+}
+
+
+header .btn {
+background: #8c00ff;
+border:#8c00ff;
+border-radius: 30px;
+width: 60%;
+}
+
+
+header .list {
+
+    text-decoration: none;
+    color: #000;
+margin: 30px;
+cursor: pointer;
+}
+
+header .list:hover {
+color: #8c00ff;
+}
+
+@media screen and (max-width:920px)
+{
+
+    header .nav-item .list {
+    line-height: 3;
+    text-align: right;
+    }
+      
+}

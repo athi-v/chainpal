@@ -1,0 +1,57 @@
+.sign {
+    background: #fff;
+    font-family: 'Poppins';
+
+}
+
+.sign .container-fluid {
+    padding: 1% 6%;
+}
+
+.sign h1 {
+    font-weight: 800;
+}
+
+.sign .title-image {
+    width:100%;
+}
+
+.sign .btn {
+    background: #8c00ff;
+    border:#8c00ff;
+    border-radius: 30px;
+    width: 60%;
+   margin-bottom: 4rem;
+}
+
+.sign input {
+
+    border:1px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 60%;
+text-align: center;
+}
+
+@media screen and (max-width:920px)
+{
+
+    .sign {
+
+        text-align: center;
+       
+    }
+    .sign .btn {
+   
+        width: 100%;
+    }
+    
+    .sign input {
+
+        width: 100%;
+
+    }
+      
+}
+

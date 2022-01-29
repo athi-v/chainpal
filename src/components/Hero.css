@@ -1,0 +1,55 @@
+.hero {
+    background: #fff;
+    font-family: 'Poppins';
+
+}
+
+.hero .container-fluid {
+    padding: 1% 6%;
+}
+
+.hero h1 {
+    font-weight: 800;
+}
+
+.hero .title-image {
+    width:100%;
+}
+
+.hero .btn {
+    background: #8c00ff;
+    border:#8c00ff;
+    border-radius: 30px;
+    width: 60%;
+}
+
+.hero input {
+
+    border:1px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 60%;
+text-align: center;
+}
+
+@media screen and (max-width:920px)
+{
+
+    .hero {
+
+        text-align: center;
+       
+    }
+    .hero .btn {
+   
+        width: 100%;
+    }
+    
+    .hero input {
+
+        width: 100%;
+
+    }
+      
+}
